@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@700&display=swap');
+body{
+    background-image: url(../assets/f.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-family: 'press start 2p';
+    color:white
+    
+
+}
+#go{
+    position: relative;
+    margin-top: 31%;
+}
+.score{
+    display: flex;
+    position: relative;
+}
+
+#retry{
+    width: 1000px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+@media screen and (max-width: 720px) {
+    img{
+        width:200px;
+    }
+}
